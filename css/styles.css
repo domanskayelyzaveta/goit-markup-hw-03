@@ -56,10 +56,13 @@ button {
 
 
 .container {
-    max-width: 1140px;
+    width: 1158px;
     padding: 0 15px;
-    margin-left: 156px;
+    margin: 0;
 }
+
+.header {
+border-bottom: 1 px solid var(--cornflower-color);}
 
 .header-container {
 display: flex;
@@ -70,6 +73,7 @@ align-items: center;
 .page-navigation{
     padding: 24px 0px;
     display: flex;
+    align-items: center;
 }
 
 .logo-link {
@@ -102,6 +106,7 @@ align-items: center;
     letter-spacing: 0.54px;
     display: flex;
     align-items: center;
+    gap: 40px;
 }
 .menu :not(:first-child) {
     margin-left: 40px;
@@ -125,6 +130,9 @@ align-items: center;
 
 .header-menu-link {
 margin-left: 40px;
+padding: 24px 0;
+
+
 }
 
 .contact {
@@ -165,6 +173,7 @@ margin-left: 40px;
 .address-list {
     color: var(--secondary-text-color);
     display: flex;
+    gap: 40px;
     
 }
 
