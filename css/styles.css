@@ -133,6 +133,7 @@ align-items: center;
 
 .header-menu-link {
 margin-left: 40px;
+padding: 24px 0;
 }
 
 .contact {
@@ -191,7 +192,8 @@ margin-left: 40px;
 }
 
 .main-button {
-    border: none;
+    display: block;
+    min-width: 169px
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     padding: 16px 32px;
@@ -240,6 +242,7 @@ margin-left: 40px;
 
 .second-section {
 margin-top: 120px;
+padding: 120px 0;
 }
 
 .second-section-list{
@@ -253,18 +256,10 @@ gap: 24px;
     /* flex-basis:calc(( 100% - 24px * 3 ) / 4 ); */
 }
 
-
-.description-hidden {
-    position: absolute;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
+.visually-hidden {
+        position: fixed;
+        transform: scale(0);
+    }
 
 }
 
