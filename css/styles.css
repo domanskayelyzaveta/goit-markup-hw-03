@@ -425,9 +425,7 @@ flex-basis: calc((100% - 48px) / 3);
 
 }
 
-.portfolio-buttons-list {
-width: calc((100% - 48px) / 3);
-}
+
 .gallery-content {
 border: 1px solid var(--cornflower-color);
 padding: 32px 16px;
