@@ -215,6 +215,10 @@ padding: 24px 0;
     background-color: var(--ocean-button-color);
 }
 
+.main-portfolio-title {
+margin-bottom: 8px;
+}
+
 .portfolio-buttons {
     display: flex;
     justify-content: center;
