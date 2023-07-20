@@ -213,7 +213,6 @@ padding: 24px 0;
 .main-button:hover,
 .main-button:focus {
     background-color: var(--ocean-button-color);
-    border: 1px solid transparent;
 }
 
 .portfolio-buttons {
@@ -241,6 +240,7 @@ padding: 24px 0;
 .second-page-button:focus {
     background-color: var(--ocean-button-color);
     color: var(--additional-text-color);
+    border: 1px solid transparent;
 }
 
 /* =========--SECTION_2--========= */
