@@ -120,7 +120,6 @@ align-items: center;
     line-height: 1.5;
     letter-spacing: 0.32px;
     padding: 24px 0;
-
 }
 
 .menu-item:active,
@@ -193,7 +192,9 @@ padding: 24px 0;
 
 .main-button {
     display: block;
-    min-width: 169px
+    min-width: 169px;
+    height: 56px;
+    border: none;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     padding: 16px 32px;
@@ -280,7 +281,18 @@ gap: 24px;
 
 }
 
-.our-service-section {}
+.our-service-section {
+    padding-bottom: 120px;
+}
+
+.our-service-list {
+    display: flex;
+    gap: 24px;
+}
+
+.service-list {
+    width: calc((100% - 48px) / 3);
+}
 
 .title-what-we-are-doing {
 
@@ -291,7 +303,8 @@ gap: 24px;
     text-transform: capitalize;
     text-align: center;
     color: var(--main-text-color);
-    margin-top: 120px;
+    padding-bottom: 120px;
+    margin-bottom: 72px;
 }
 
 
@@ -363,10 +376,12 @@ gap: 24px;
 .footer-figuration {
     background-color: var(--navy-background-color);
     height: 312px;
-    
+    padding: 100px 0;
 }
 
 .footer-text {
+    display: inline-block;
+    margin-bottom: 16px;
     flex-direction: row;
     max-width: 296px;
     font-size: 16px;
