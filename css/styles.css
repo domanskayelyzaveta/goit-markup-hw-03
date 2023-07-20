@@ -58,11 +58,12 @@ button {
 .container {
     width: 1158px;
     padding: 0 15px;
-    margin: 0;
+    margin: 0 auto;
 }
 
 .header {
-border-bottom: 1 px solid var(--cornflower-color);}
+border-bottom: 1 px solid border-bottom: 1px solid #e7e9fc;
+}
 
 .header-container {
 display: flex;
