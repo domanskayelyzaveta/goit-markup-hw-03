@@ -253,7 +253,7 @@ padding: 120px 0;
 .second-section-list{
 display: flex;
 gap: 24px;
-
+margin-bottom: 8pxБ
 
 }
 
@@ -279,8 +279,6 @@ gap: 24px;
 }
 
 .about-us {
-
-    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
