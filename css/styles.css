@@ -274,9 +274,10 @@ margin-bottom: 8px;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-    margin-bottom: 8px;
 }
 
+.description {
+margin-bottom: 8px;
 }
 
 .about-us {
