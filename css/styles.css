@@ -262,6 +262,10 @@ margin-bottom: 8px;
     /* flex-basis:calc(( 100% - 24px * 3 ) / 4 ); */
 }
 
+.description {
+    margin-bottom: 8px;
+}
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -276,9 +280,7 @@ margin-bottom: 8px;
     overflow: hidden;
 }
 
-.description {
-margin-bottom: 8px;
-}
+
 
 .about-us {
     font-weight: 500;
